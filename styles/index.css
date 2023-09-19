@@ -1,0 +1,168 @@
+body{
+    background: #090b13;
+}
+
+.imgLogo {
+    width: 100px;
+}
+
+#btnIniciarSesion {
+    background-color: #4e4a59;
+}
+
+
+#btnInicSuscripcion{
+    background-color: #fc3c36;
+}
+
+.imgTitulo{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 10px;
+    width: 300px;
+}
+
+
+@media (max-width:576px){
+    .imgTitulo{
+        display: none;
+        
+       
+    }
+}
+@media (min-width:768px){
+    .imgTitulo{
+        margin-top: 100px;
+        width: 400px;
+       
+    }
+}
+
+
+@media (min-width:1200px){
+    .imgTitulo{
+        margin-top: 100px;
+        margin-left: 40px;
+        width: 500px;
+       
+    }
+}
+
+
+.planes {
+    background: #090b13;
+}
+
+.logoDeStar {
+    background: #090b13;
+}
+
+.btnCardSuscripcion {
+    background: #6421ff;
+}
+
+/* .logocombo{
+    background: #090b13;
+} */
+
+.imgFondo{
+    background: #230a5efb;
+    
+}
+
+
+.footerLista {
+    list-style: none;
+    
+}
+
+.footerLista a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #ffff;
+}
+
+.acordeonColor {
+    background: #35313f;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .no-gutters .col {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .no-gutters .card {
+    margin: 0;
+  }
+  
+  .size-card-0 {
+      &:hover{
+        cursor: pointer;
+        z-index: 1;
+      box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+      transform: scale(1.1);
+      background-color: #0d1121;
+    }
+  }
+  .img-0{
+    filter: brightness(50%)
+  }
+  
+  .size-card-1 {
+      &:hover{
+        cursor: pointer;
+        z-index: 1;
+      box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+      transform: scale(1.1);
+      background-color: #55544E;
+    }
+  }
+  
+  .size-card-2 {
+    &:hover{
+      cursor: pointer;
+      z-index: 1;
+      box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+      transform: scale(1.1);
+      background-color: #282828;
+    }
+  }
+  
+  .size-card-3 {
+    &:hover{
+      cursor: pointer;
+      z-index: 1;
+      box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+      transform: scale(1.1);
+      background-color: #090b13;
+    }
+  }
+  
+  .size-card-4 {
+    &:hover{
+      cursor: pointer;
+      z-index: 1;
+      box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+      transform: scale(1.1);
+      background-color: #090b13;
+    }
+  }
+  
+  .card-text-border{
+    font-weight: bold;
+    -webkit-text-stroke: 1.4px black;
+  }
+  
+  .card-max-text{
+    /* max-height: ; */
+      overflow-y: auto;
+    }
+
+    .info-card{
+      height: 5%;
+    }
